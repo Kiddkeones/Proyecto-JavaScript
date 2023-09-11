@@ -1,5 +1,5 @@
 alert("Ingrese la opcion del producto que desea llevar, para salir ingrese 0")
-let seleccionarProductos = Number(prompt("1-Buzo($8000)   2-Remera($5000)   3-Pantalon($8500)   4-Zapatilla($11000)"))
+let seleccionarProductos = Number(prompt("1-Buzo($8000)\n2-Remera($5000)\n3-Pantalon($8500)\n4-Zapatilla($11000)"))
 let seleccionarCantidad
 let total = 0
 
@@ -29,7 +29,7 @@ while (seleccionarProductos != 0) {
         default:
             break;
     }
-    seleccionarProductos = Number(prompt("1-Buzo($8000)   2-Remera($5000)   3-Pantalon($8500)   4-Zapatilla($11000)"))
+    seleccionarProductos = Number(prompt("1-Buzo($8000)\n2-Remera($5000)\n3-Pantalon($8500)\n4-Zapatilla($11000)"))
 }
 
 alert("El total de la compra es de: $" + total)
