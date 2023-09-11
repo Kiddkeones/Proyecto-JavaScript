@@ -14,3 +14,13 @@
 .logo img{
     height: 100px;
 }
+
+.tarjetitas{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.img-tarjetita {
+    max-width: 100%;
+}
