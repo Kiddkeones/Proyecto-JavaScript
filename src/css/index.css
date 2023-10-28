@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(151, 151, 151);
+}
+
+.logo img {
+    height: 100px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjetita {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetita .contenido-tarjeta {
+    margin-bottom: auto;
+}
+
+.tarjetita .price {
+    margin-top: auto;
+}
+
+.add-cart-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-cart-btn:hover {
+    background-color: #08315c;
+    color: rgb(196, 196, 196);
+}

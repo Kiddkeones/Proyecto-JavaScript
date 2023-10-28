@@ -1,0 +1,38 @@
+.cart {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.product img {
+    max-width: 50px;
+    vertical-align: middle;
+}
+
+.product-details {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    color: green;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+}
