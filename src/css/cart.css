@@ -36,3 +36,18 @@
     text-align: right;
     margin-top: 10px;
 }
+
+.btn-back{
+    border: none;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.btn-back a{
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-back a:visited{
+    color: black;
+}

@@ -7,7 +7,7 @@
 
 .logo {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(151, 151, 151);
 }
 
@@ -52,4 +52,11 @@
 .add-cart-btn:hover {
     background-color: #08315c;
     color: rgb(196, 196, 196);
+}
+
+.btn-cart{
+    font-size: 50px;
+    color: black;
+    padding-top: 25px;
+    padding-right: 20px;
 }
