@@ -44,7 +44,7 @@ const crearTarjeta = (producto) => {
 // Función para crear tarjetas y agregarlas al contenedor
 const crearTarjetas = (productos) => {
     const contenedor = document.querySelector(".contenedor-tarjetas");
-    contenedor.innerHTML = ""; // Limpiar el contenedor
+    contenedor.innerHTML = "";
 
     productos.forEach((producto) => {
         const tarjeta = crearTarjeta(producto);
