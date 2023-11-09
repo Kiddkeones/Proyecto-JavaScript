@@ -1,3 +1,4 @@
+//Codigo de pages/cart.html
 const cart = document.getElementById("cart");
 const productsFromLocalStorage = JSON.parse(localStorage.getItem("cart"));
 

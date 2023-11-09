@@ -6,8 +6,8 @@ const getProductsFromSessionStorage = () => {
     return JSON.parse(productsData);
 };
 
-// Función para crear una tarjeta individual
-const crearTarjeta = (producto) => {
+// Función para crear elementos de tarjetas individual
+const crearElementos = (producto) => {
     const tarjeta = document.createElement("div");
     tarjeta.classList.add("tarjetita");
 
@@ -47,7 +47,7 @@ const crearTarjetas = (productos) => {
     contenedor.innerHTML = "";
 
     productos.forEach((producto) => {
-        const tarjeta = crearTarjeta(producto);
+        const tarjeta = crearElementos(producto);
         contenedor.appendChild(tarjeta);
     });
 };
