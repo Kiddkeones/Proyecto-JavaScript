@@ -6,14 +6,14 @@ export const addToCartBtn = () => {
             Toastify({
                 text: "Añadido al Carrito",
                 duration: 1000,
-                gravity: "top", // `top` or `bottom`
-                position: "left", // `left`, `center` or `right`
-                stopOnFocus: true, // Prevents dismissing of toast on hover
+                gravity: "top",
+                position: "left",
+                stopOnFocus: true, 
                 style: {
                   background: "linear-gradient(to right, #111, #111)",
                   borderRadius: "2rem"
                 },
-                onClick: function(){} // Callback after click
+                onClick: function(){}
               }).showToast();
 
             const productCard = button.parentNode;
