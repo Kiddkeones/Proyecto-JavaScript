@@ -1,6 +1,6 @@
 const getData = async () => {
   try {
-    const res = await fetch("https://apimocha.com/data-products/products");
+    const res = await fetch("./src/JSON/data.json");
     if (!res.ok) {
       throw new Error("Error http:" + res.status);
     }

@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Buzo Nadsat Green Oil",
+      "descripcion": "Buzo Nadsat color verde petroleo, calce oversize con capucha extra grande.",
+      "precio": 23000,
+      "imagen": "https://tugroovy.com/wp-content/uploads/2023/03/Buzo-Verde-1.jpg"
+    },
+    {
+      "title": "Pants Cargo",
+      "descripcion": "Pantalones Cargo color Verde.",
+      "precio": 28000,
+      "imagen": "https://tugroovy.com/wp-content/uploads/2023/08/IMG_0806.jpg"
+    },
+    {
+      "title": "Remera. It’s Okay to Change",
+      "descripcion": "Remera oversize, color blanca",
+      "precio": 14000,
+      "imagen": "https://tugroovy.com/wp-content/uploads/2023/10/its-okay-to-change2_Mesa-de-trabajo-1-1000x1000.jpg"
+    },
+    {
+        "title": "Air Jordan 1 Retro High OG",
+        "descripcion": "Zapatillas de Moda para Hombres",
+        "precio": 120000,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/629084-1000-1000?v=638210592416570000&width=1000&height=1000&aspect=true"
+    }
+]
