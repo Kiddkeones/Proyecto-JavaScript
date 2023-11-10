@@ -79,7 +79,8 @@ for (const key in productsFromLocalStorage) {
 const totalElement = cart.querySelector(".total");
 totalElement.innerHTML = `<p>Total: $${total.toFixed(2)}</p>`;
 
-// Función para ejecutar cuando se hace clic en algo (por ejemplo, un botón)
+
+
 function realizarCompra() {
   // Borrar el almacenamiento local
   localStorage.clear();
